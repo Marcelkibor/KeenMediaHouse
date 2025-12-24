@@ -60,6 +60,7 @@ export function Navigation() {
           <button className="mobile-menu-btn" id="mobileMenuBtn">☰</button>
           <ul className="nav-links" id="navLinks">
             <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
             <li><a href="#services">Packages</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#team">Our Team</a></li>

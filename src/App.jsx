@@ -4,6 +4,7 @@ import Booking from './components/Booking';
 import Footer from './components/Footer';
 import LandingText from './components/LandingText';
 import AdminLogin from './components/Admin/AdminLogin';
+import About from './components/About';
 import { Navigation } from './components/Navigation';
 import Portfolio from './components/Portfolio';
 import Services from './components/Services';
@@ -23,6 +24,7 @@ return (
             <>
               <Navigation />
               <LandingText />
+              <About/>
               <Services />
               <Portfolio />
               <Team />

@@ -94,21 +94,6 @@ if(res){
               <input type="time" id="time" name="time" required />
             </div>
           </div>
-
-          <div className="form-group">
-            <label htmlFor="teamMember">Select Team Member *</label>
-            <select id="teamMember" name="teamMember" required>
-              <option value="">Choose your team member</option>
-              <option value="felix">Felix Agwenye - Photographer</option>
-              <option value="edwin">Edwin Koech - Photographer</option>
-              <option value="meshack-mutai">Meshack Mutai - Videographer</option>
-              <option value="brian">Brian Mely - Videographer</option>
-              <option value="japheth">Japheth Odhiambo - Drone Pilot</option>
-              <option value="eugine">Eugine - Video Editor</option>
-              <option value="bradley">Bradley - Sound Engineer</option>
-            </select>
-          </div>
-
           <div id="teamMemberPreview" className="photographer-preview">
             <div className="photographer-info">
               <div className="photographer-avatar" id="previewAvatar">📷</div>

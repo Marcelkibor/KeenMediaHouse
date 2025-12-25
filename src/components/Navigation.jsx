@@ -1,5 +1,6 @@
 import React,{ useEffect } from 'react';
 import '../App.css';
+import { Link } from "react-router-dom";
 
 export function Navigation() {
 
@@ -66,7 +67,9 @@ export function Navigation() {
             <li><a href="#team">Our Team</a></li>
             <li><a href="#testimonials">Reviews</a></li>
             <li><a href="#booking">Book Now</a></li>
-            <li><a href="/admin-login">Admin Login</a></li>
+           <li>
+        <Link to="/admin-login">Admin Login</Link>
+      </li>
           </ul>
         </div>
       </nav>
